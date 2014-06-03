@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4339.hcd:system/vendor/firmware/bcm4339.hcd \
-	vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
 	vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4339_A0.hcd:system/vendor/firmware/bcm4339_A0.hcd \
 	vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4339_murata.hcd:system/vendor/firmware/bcm4339_murata.hcd \
 	vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4339_semco.hcd:system/vendor/firmware/bcm4339_semco.hcd \
