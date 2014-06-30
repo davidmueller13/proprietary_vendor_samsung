@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0043.0215_N1-LTE.hcd:system/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0043.0215_N1-LTE.hcd \
 	vendor/samsung/lt03lte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/samsung/lt03lte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/samsung/lt03lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+	vendor/samsung/lt03lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/samsung/lt03lte/proprietary//lib/libak8963c.so:system/lib/libak8963c.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
