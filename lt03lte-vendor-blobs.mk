@@ -522,3 +522,7 @@ PRODUCT_COPY_FILES_NN += \
     vendor/samsung/proprietary_ant/system/app/ANTPlusPlugins/ANTPlusPlugins.apk:system/app/ANTPlusPlugins/ANTPlusPlugins.apk \
     vendor/samsung/proprietary_ant/system/app/ANTPlusTest/ANTPlusTest.apk:system/app/ANTPlusTest/ANTPlusTest.apk \
     vendor/samsung/proprietary_ant/system/app/ANTRadioService/ANTRadioService.apk:system/app/ANTRadioService/ANTRadioService.apk \
+
+## UPDATES
+
+vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so
