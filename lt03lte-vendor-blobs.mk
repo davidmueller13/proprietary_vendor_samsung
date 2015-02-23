@@ -525,4 +525,7 @@ PRODUCT_COPY_FILES_NN += \
 
 ## UPDATES
 
-vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so
+	vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so
