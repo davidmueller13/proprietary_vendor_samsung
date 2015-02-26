@@ -21,4 +21,4 @@
 #    ANTPlusTest \
 #    ANTRadioService
 
-$(call inherit-product, vendor/samsung/lt03lte/lt03lte-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/lt03lte-vendor-blobs.mk)
