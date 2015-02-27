@@ -524,8 +524,8 @@ PRODUCT_COPY_FILES_NN += \
     vendor/samsung/proprietary_ant/system/app/ANTRadioService/ANTRadioService.apk:system/app/ANTRadioService/ANTRadioService.apk \
 
 ## UPDATES
-
-	vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so
-	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so
+PRODUCT_COPY_FILES += \
+	vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so
