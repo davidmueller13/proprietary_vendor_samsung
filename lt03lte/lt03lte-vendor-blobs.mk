@@ -300,4 +300,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/lt03lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/lt03lte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/samsung/lt03lte/proprietary//vendor/lib/libqti-perfd-client.so:system//vendor/lib/libqti-perfd-client.so
+    vendor/samsung/lt03lte/proprietary/vendor/lib/libqti-perfd-client.so:system//vendor/lib/libqti-perfd-client.so \
+    vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so
