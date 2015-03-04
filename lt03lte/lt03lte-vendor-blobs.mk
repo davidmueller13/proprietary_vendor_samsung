@@ -29,15 +29,82 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/samsung/lt03lte/proprietary/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0061.0300_N1-LTE.hcd:system/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0061.0300_N1-LTE.hcd \
-    vendor/samsung/lt03lte/proprietary/etc/imx134_module_info.xml:system/etc/imx134_module_info.xml \
-    vendor/samsung/lt03lte/proprietary/etc/imx135_module_info.xml:system/etc/imx135_module_info.xml \
-    vendor/samsung/lt03lte/proprietary/lib/libTabletSICS-2.4.1400.so:system/lib/libTabletSICS-2.4.1400.so \
-    vendor/samsung/lt03lte/proprietary/lib/libTimaAL.so:system/lib/libTimaAL.so \
-    vendor/samsung/lt03lte/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
-    vendor/samsung/lt03lte/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
-    vendor/samsung/lt03lte/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
-    vendor/samsung/lt03lte/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
+    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335_V0093.0399_wisol.hcd:system/vendor/firmware/bcm4335_V0093.0399_wisol.hcd \
+    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335_V0093.0399.hcd:system/vendor/firmware/bcm4335_V0093.0399.hcd \
+    vendor/samsung/lt03lte/proprietary/etc/C13QL_s5k3l2xx_module_info.xml:system/etc/C13QL_s5k3l2xx_module_info.xml \
+    vendor/samsung/lt03lte/proprietary/etc/C13QS_imx135_module_info.xml:system/etc/C13QS_imx135_module_info.xml \
+    vendor/samsung/lt03lte/proprietary/etc/D13QL_s5k3l2xx_module_info.xml:system/etc/D13QL_s5k3l2xx_module_info.xml \
+    vendor/samsung/lt03lte/proprietary/etc/D13QS_imx135_module_info.xml:system/etc/D13QS_imx135_module_info.xml \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_common.so:system/lib/C13QL_libchromatix_s5k3l2xx_common.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_common_1080p_b.so:system/lib/C13QL_libchromatix_s5k3l2xx_common_1080p_b.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_common_1080p_s.so:system/lib/C13QL_libchromatix_s5k3l2xx_common_1080p_s.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_common_res0.so:system/lib/C13QL_libchromatix_s5k3l2xx_common_res0.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_common_res1.so:system/lib/C13QL_libchromatix_s5k3l2xx_common_res1.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_common_res2.so:system/lib/C13QL_libchromatix_s5k3l2xx_common_res2.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_common_res3.so:system/lib/C13QL_libchromatix_s5k3l2xx_common_res3.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_default_video.so:system/lib/C13QL_libchromatix_s5k3l2xx_default_video.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_golfshot.so:system/lib/C13QL_libchromatix_s5k3l2xx_golfshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_hfr_1080p_b.so:system/lib/C13QL_libchromatix_s5k3l2xx_hfr_1080p_b.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_hfr_1080p_s.so:system/lib/C13QL_libchromatix_s5k3l2xx_hfr_1080p_s.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_hfr_120.so:system/lib/C13QL_libchromatix_s5k3l2xx_hfr_120.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_liveshot.so:system/lib/C13QL_libchromatix_s5k3l2xx_liveshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_pip.so:system/lib/C13QL_libchromatix_s5k3l2xx_pip.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_preview.so:system/lib/C13QL_libchromatix_s5k3l2xx_preview.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_snapshot.so:system/lib/C13QL_libchromatix_s5k3l2xx_snapshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_uhd_video.so:system/lib/C13QL_libchromatix_s5k3l2xx_uhd_video.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libchromatix_s5k3l2xx_zslshot.so:system/lib/C13QL_libchromatix_s5k3l2xx_zslshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_common.so:system/lib/C13QS_libchromatix_imx135_common.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_common_1080p_b.so:system/lib/C13QS_libchromatix_imx135_common_1080p_b.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_common_1080p_s.so:system/lib/C13QS_libchromatix_imx135_common_1080p_s.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_common_res0.so:system/lib/C13QS_libchromatix_imx135_common_res0.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_common_res1.so:system/lib/C13QS_libchromatix_imx135_common_res1.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_common_res2.so:system/lib/C13QS_libchromatix_imx135_common_res2.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_common_res3.so:system/lib/C13QS_libchromatix_imx135_common_res3.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_default_video.so:system/lib/C13QS_libchromatix_imx135_default_video.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_golfshot.so:system/lib/C13QS_libchromatix_imx135_golfshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_hfr_1080p_b.so:system/lib/C13QS_libchromatix_imx135_hfr_1080p_b.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_hfr_1080p_s.so:system/lib/C13QS_libchromatix_imx135_hfr_1080p_s.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_hfr_120.so:system/lib/C13QS_libchromatix_imx135_hfr_120.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_liveshot.so:system/lib/C13QS_libchromatix_imx135_liveshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_pip.so:system/lib/C13QS_libchromatix_imx135_pip.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_preview.so:system/lib/C13QS_libchromatix_imx135_preview.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_snapshot.so:system/lib/C13QS_libchromatix_imx135_snapshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_uhd_video.so:system/lib/C13QS_libchromatix_imx135_uhd_video.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libchromatix_imx135_zslshot.so:system/lib/C13QS_libchromatix_imx135_zslshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_common.so:system/lib/D13QS_libchromatix_imx135_common.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_common_1080p_b.so:system/lib/D13QS_libchromatix_imx135_common_1080p_b.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_common_1080p_s.so:system/lib/D13QS_libchromatix_imx135_common_1080p_s.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_common_res0.so:system/lib/D13QS_libchromatix_imx135_common_res0.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_common_res1.so:system/lib/D13QS_libchromatix_imx135_common_res1.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_common_res2.so:system/lib/D13QS_libchromatix_imx135_common_res2.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_common_res3.so:system/lib/D13QS_libchromatix_imx135_common_res3.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_default_video.so:system/lib/D13QS_libchromatix_imx135_default_video.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_golfshot.so:system/lib/D13QS_libchromatix_imx135_golfshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_hfr_1080p_b.so:system/lib/D13QS_libchromatix_imx135_hfr_1080p_b.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_hfr_1080p_s.so:system/lib/D13QS_libchromatix_imx135_hfr_1080p_s.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_hfr_120.so:system/lib/D13QS_libchromatix_imx135_hfr_120.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_liveshot.so:system/lib/D13QS_libchromatix_imx135_liveshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_pip.so:system/lib/D13QS_libchromatix_imx135_pip.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_preview.so:system/lib/D13QS_libchromatix_imx135_preview.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_snapshot.so:system/lib/D13QS_libchromatix_imx135_snapshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_uhd_video.so:system/lib/D13QS_libchromatix_imx135_uhd_video.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libchromatix_imx135_zslshot.so:system/lib/D13QS_libchromatix_imx135_zslshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libTsAe.so:system/lib/C13QL_libTsAe.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libTsAf.so:system/lib/C13QL_libTsAf.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libTs_J_Accm.so:system/lib/C13QL_libTs_J_Accm.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QL_libTs_J_Awb.so:system/lib/C13QL_libTs_J_Awb.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libTsAe.so:system/lib/C13QS_libTsAe.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libTsAf.so:system/lib/C13QS_libTsAf.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libTs_J_Accm.so:system/lib/C13QS_libTs_J_Accm.so \
+    vendor/samsung/lt03lte/proprietary/lib/C13QS_libTs_J_Awb.so:system/lib/C13QS_libTs_J_Awb.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QL_libTsAe.so:system/lib/D13QL_libTsAe.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QL_libTsAf.so:system/lib/D13QL_libTsAf.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QL_libTs_J_Accm.so:system/lib/D13QL_libTs_J_Accm.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QL_libTs_J_Awb.so:system/lib/D13QL_libTs_J_Awb.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libTsAe.so:system/lib/D13QS_libTsAe.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libTsAf.so:system/lib/D13QS_libTsAf.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libTs_J_Accm.so:system/lib/D13QS_libTs_J_Accm.so \
+    vendor/samsung/lt03lte/proprietary/lib/D13QS_libTs_J_Awb.so:system/lib/D13QS_libTs_J_Awb.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx134_common.so:system/lib/libchromatix_imx134_common.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx134_common_720p_b.so:system/lib/libchromatix_imx134_common_720p_b.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx134_common_720p_s.so:system/lib/libchromatix_imx134_common_720p_s.so \
@@ -74,6 +141,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx135_snapshot.so:system/lib/libchromatix_imx135_snapshot.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx135_uhd_video.so:system/lib/libchromatix_imx135_uhd_video.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx135_zslshot.so:system/lib/libchromatix_imx135_zslshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_common.so:system/lib/libchromatix_s5k3l2xx_common.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_b.so:system/lib/libchromatix_s5k3l2xx_common_1080p_b.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_s.so:system/lib/libchromatix_s5k3l2xx_common_1080p_s.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_common_res0.so:system/lib/libchromatix_s5k3l2xx_common_res0.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_common_res1.so:system/lib/libchromatix_s5k3l2xx_common_res1.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_common_res2.so:system/lib/libchromatix_s5k3l2xx_common_res2.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_common_res3.so:system/lib/libchromatix_s5k3l2xx_common_res3.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_default_video.so:system/lib/libchromatix_s5k3l2xx_default_video.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_golfshot.so:system/lib/libchromatix_s5k3l2xx_golfshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so:system/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so:system/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_hfr_120.so:system/lib/libchromatix_s5k3l2xx_hfr_120.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_liveshot.so:system/lib/libchromatix_s5k3l2xx_liveshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_pip.so:system/lib/libchromatix_s5k3l2xx_pip.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_preview.so:system/lib/libchromatix_s5k3l2xx_preview.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_snapshot.so:system/lib/libchromatix_s5k3l2xx_snapshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_uhd_video.so:system/lib/libchromatix_s5k3l2xx_uhd_video.so \
+    vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k3l2xx_zslshot.so:system/lib/libchromatix_s5k3l2xx_zslshot.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_common.so:system/lib/libchromatix_s5k6b2yx_common.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_default_video.so:system/lib/libchromatix_s5k6b2yx_default_video.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_pip.so:system/lib/libchromatix_s5k6b2yx_pip.so \
@@ -82,12 +167,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_zslshot.so:system/lib/libchromatix_s5k6b2yx_zslshot.so \
+    vendor/samsung/lt03lte/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
+    vendor/samsung/lt03lte/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
+    vendor/samsung/lt03lte/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
+    vendor/samsung/lt03lte/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt.so:system/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt_hd.so:system/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt_hd.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/C13QS_libchromatix_imx135_vt.so:system/vendor/lib/C13QS_libchromatix_imx135_vt.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/C13QS_libchromatix_imx135_vt_hd.so:system/vendor/lib/C13QS_libchromatix_imx135_vt_hd.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/D13QL_libchromatix_s5k3l2xx_vt.so:system/vendor/lib/D13QL_libchromatix_s5k3l2xx_vt.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/D13QL_libchromatix_s5k3l2xx_vt_hd.so:system/vendor/lib/D13QL_libchromatix_s5k3l2xx_vt_hd.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/D13QS_libchromatix_imx135_vt.so:system/vendor/lib/D13QS_libchromatix_imx135_vt.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/D13QS_libchromatix_imx135_vt_hd.so:system/vendor/lib/D13QS_libchromatix_imx135_vt_hd.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx134_vt.so:system/vendor/lib/libchromatix_imx134_vt.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx134_vt_hd.so:system/vendor/lib/libchromatix_imx134_vt_hd.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_vt.so:system/vendor/lib/libchromatix_imx135_vt.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_vt_hd.so:system/vendor/lib/libchromatix_imx135_vt_hd.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt.so:system/vendor/lib/libchromatix_s5k3l2xx_vt.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so:system/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so \
     vendor/samsung/lt03lte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/lt03lte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/samsung/lt03lte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/samsung/lt03lte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/lt03lte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/lt03lte/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -150,11 +249,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/lt03lte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/lt03lte/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -183,40 +282,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
+    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
+    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
+    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/samsung/lt03lte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
     vendor/samsung/lt03lte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
+    vendor/samsung/lt03lte/proprietary/lib/libsensirion_h_2.so:system/lib/libsensirion_h_2.so \
     vendor/samsung/lt03lte/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/samsung/lt03lte/proprietary//vendor/lib/libqti-perfd-client.so:system//vendor/lib/libqti-perfd-client.so \
     vendor/samsung/lt03lte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/lt03lte/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
     vendor/samsung/lt03lte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/lt03lte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
-    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
-    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
-    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
-    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4339.hcd:system/vendor/firmware/bcm4339.hcd \
-    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4339_A0.hcd:system/vendor/firmware/bcm4339_A0.hcd \
-    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4339_murata.hcd:system/vendor/firmware/bcm4339_murata.hcd \
-    vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4339_semco.hcd:system/vendor/firmware/bcm4339_semco.hcd \
-    vendor/samsung/lt03lte/proprietary/bin/connfwexe:system/bin/connfwexe \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/samsung/lt03lte/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/samsung/lt03lte/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-    vendor/samsung/lt03lte/proprietary/lib/libandroidfw.so:system/lib/libandroidfw.so \
-    vendor/samsung/lt03lte/proprietary/lib/libfilterfw.so:system/lib/libfilterfw.so \
-    vendor/samsung/lt03lte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so
+    vendor/samsung/lt03lte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
+    vendor/samsung/lt03lte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/lt03lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/lt03lte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/samsung/lt03lte/proprietary//vendor/lib/libqti-perfd-client.so:system//vendor/lib/libqti-perfd-client.so
