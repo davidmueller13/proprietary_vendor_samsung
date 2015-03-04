@@ -16,8 +16,10 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
-PRODUCT_PACKAGES += \
-    TimeService
+DEVICE_PACKAGE_OVERLAYS := vendor/samsung/lt03lte/overlay
+
+#PRODUCT_PACKAGES += \
+#    TimeService
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
