@@ -241,7 +241,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/lib/libxml2.so:system/lib/libxml2.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so
+	vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so
 
