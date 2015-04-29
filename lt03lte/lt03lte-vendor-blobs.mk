@@ -45,8 +45,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
 	vendor/samsung/lt03lte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
 	vendor/samsung/lt03lte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-	vendor/samsung/lt03lte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
 	vendor/samsung/lt03lte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+	vendor/samsung/lt03lte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
 	vendor/samsung/lt03lte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	vendor/samsung/lt03lte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
 	vendor/samsung/lt03lte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
