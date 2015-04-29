@@ -23,6 +23,20 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/rfs_access:system/bin/rfs_access \
 	$(LOCAL_PATH)/proprietary/bin/thermald:system/bin/thermald \
 	$(LOCAL_PATH)/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+	$(LOCAL_PATH)/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+	$(LOCAL_PATH)/proprietary/bin/efsks:system/bin/efsks \
+	$(LOCAL_PATH)/proprietary/bin/ks:system/bin/ks \
+	$(LOCAL_PATH)/proprietary/bin/qcks:system/bin/qcks \
+	$(LOCAL_PATH)/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+	$(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
+	$(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
+	$(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+	$(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
+	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	$(LOCAL_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
+	$(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
+	$(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
+	$(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
@@ -73,14 +87,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	$(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
-	$(LOCAL_PATH)/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-	$(LOCAL_PATH)/proprietary/bin/efsks:system/bin/efsks \
-	$(LOCAL_PATH)/proprietary/bin/ks:system/bin/ks \
-	$(LOCAL_PATH)/proprietary/bin/qcks:system/bin/qcks \
-	$(LOCAL_PATH)/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-	$(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
-	$(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
-	$(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	$(LOCAL_PATH)/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	$(LOCAL_PATH)/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -100,7 +106,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	$(LOCAL_PATH)/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-	$(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
 	$(LOCAL_PATH)/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
@@ -113,7 +118,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	$(LOCAL_PATH)/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	$(LOCAL_PATH)/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	$(LOCAL_PATH)/proprietary/etc/imx134_module_info.xml:system/etc/imx134_module_info.xml \
@@ -220,7 +224,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	$(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-	$(LOCAL_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
 	$(LOCAL_PATH)/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	$(LOCAL_PATH)/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	$(LOCAL_PATH)/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
@@ -233,7 +236,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	$(LOCAL_PATH)/proprietary/etc/sec_config:system/etc/sec_config \
-	$(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
 	$(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
