@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/bcm4339_A0.hcd:system/vendor/firmware/bcm4339_A0.hcd \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/bcm4339_murata.hcd:system/vendor/firmware/bcm4339_murata.hcd \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/bcm4339_semco.hcd:system/vendor/firmware/bcm4339_semco.hcd \
-	$(LOCAL_PATH)/proprietary/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0061.0300_N1-LTE.hcd
+	$(LOCAL_PATH)/proprietary/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0061.0300_N1-LTE.hcd \
 	$(LOCAL_PATH)/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	$(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -122,7 +122,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	$(LOCAL_PATH)/proprietary/etc/imx134_module_info.xml:system/etc/imx134_module_info.xml \
 	$(LOCAL_PATH)/proprietary/etc/imx135_module_info.xml:system/etc/imx135_module_info.xml \
-	$(LOCAL_PATH)/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+	$(LOCAL_PATH)/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
 	$(LOCAL_PATH)/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
 	$(LOCAL_PATH)/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
 	$(LOCAL_PATH)/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
