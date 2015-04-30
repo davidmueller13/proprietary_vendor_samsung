@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/sec_config:system/etc/sec_config \
 	$(LOCAL_PATH)/proprietary/etc/imx134_module_info.xml:system/etc/imx134_module_info.xml \
 	$(LOCAL_PATH)/proprietary/etc/imx135_module_info.xml:system/etc/imx135_module_info.xml \
 
