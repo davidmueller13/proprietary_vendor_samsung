@@ -91,6 +91,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 
 #
+# FRAMEWORK
+#
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+
+#
 # LIB
 #
 PRODUCT_COPY_FILES += \
