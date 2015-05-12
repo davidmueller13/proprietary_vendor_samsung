@@ -18,6 +18,7 @@
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    libtime_genoff
+    libtime_genoff \
+    TimeService
 
 $(call inherit-product, vendor/samsung/lt03lte/lt03lte-vendor-blobs.mk)
